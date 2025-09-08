@@ -31,6 +31,5 @@ def main(cli_args: list[str] | None = None):
     assert args.impl, "subparsers should add an impl function to args"
     args.impl(args)
 
-
 if __name__ == "__main__":
     main()
